@@ -1,0 +1,142 @@
+body {
+    background-image: url("../../media/Background.png");
+
+}
+
+footer {
+
+}
+
+nav {
+    display: flex;
+    width: 1173px;
+    height: 84px;
+    align-items: center;
+    flex-shrink: 0;
+    gap: 45px;
+    justify-content: space-between;
+    color: #fff;
+    padding: 10px;
+}
+
+nav a {
+    color: #212121;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.375px;
+    text-decoration: none;
+}
+
+.nav-logo {
+    display: flex;
+    height: 58px;
+    padding: 10px;
+    align-items: center;
+    gap: 10px;
+    flex: 1 0 0;
+}
+
+.contact-me {
+    display: flex;
+    padding: 10px 18px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 10px;
+    background: #608AF5;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.375px;
+}
+
+.container {
+    margin-top: 70px;
+    margin-left: 140px;
+}
+
+.main-hero {
+    width: 1191px;
+    height: 476px;
+    display: flex;
+}
+
+.main-hero .text {
+    position: relative;
+    color: #002265;
+    font-family: Poppins;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.25px;
+    width: 580px;
+    height: 217px;
+    flex: 1 0 0;
+}
+
+.main-hero img {
+    width: 524px;
+    height: 476px;
+    flex-shrink: 0;
+    position: relative;
+    border-radius: 40%;
+}
+
+.card {
+    width: 347px;
+    height: 280px;
+    flex-shrink: 0;
+    border-radius: 13px;
+    background: #FFF;
+    box-shadow: 0px 5px 26px 5px rgba(0, 0, 0, 0.17);
+    color: #000;
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.375px;
+}
+
+.passions {
+    width: 1141px;
+    height: 393px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card picture {
+    width: 225px;
+    height: 159px;
+    display: flex;
+    margin-left: 50px;
+}
+
+.card p {
+    display: flex;
+    width: 299px;
+    height: 28px;
+    flex-direction: column;
+    justify-content: center;
+    color: #000;
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.375px;
+    margin-left: 20px;
+
+}
